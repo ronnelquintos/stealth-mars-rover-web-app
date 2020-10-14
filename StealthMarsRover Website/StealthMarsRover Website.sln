@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StealthMarsRover.Web", "StealthMarsRover.Web\StealthMarsRover.Web.csproj", "{F4434115-416D-4E54-81D7-87BDD49C060B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StealthMarsRover", "StealthMarsRover\StealthMarsRover.csproj", "{D8987AF0-E7FA-4598-9BDC-0C8B6F843758}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StealthMarsRover.Service", "StealthMarsRover.Service\StealthMarsRover.Service.csproj", "{35C9E19A-74FF-4909-88F3-E463E780F895}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StealthMarsRover.UnitTest", "StealthMarsRover.UnitTest\StealthMarsRover.UnitTest.csproj", "{30A4DB16-1CA4-4D8D-BECD-AEEB7A5CF42D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StealthMarsRover.Api", "StealthMarsRover.Api\StealthMarsRover.Api.csproj", "{74EB6A48-956A-402B-B015-760AFF1A08DD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2D387DAE-0F43-4A45-8183-410B35D270A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4434115-416D-4E54-81D7-87BDD49C060B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4434115-416D-4E54-81D7-87BDD49C060B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4434115-416D-4E54-81D7-87BDD49C060B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4434115-416D-4E54-81D7-87BDD49C060B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8987AF0-E7FA-4598-9BDC-0C8B6F843758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8987AF0-E7FA-4598-9BDC-0C8B6F843758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8987AF0-E7FA-4598-9BDC-0C8B6F843758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8987AF0-E7FA-4598-9BDC-0C8B6F843758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C9E19A-74FF-4909-88F3-E463E780F895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C9E19A-74FF-4909-88F3-E463E780F895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C9E19A-74FF-4909-88F3-E463E780F895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C9E19A-74FF-4909-88F3-E463E780F895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A4DB16-1CA4-4D8D-BECD-AEEB7A5CF42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A4DB16-1CA4-4D8D-BECD-AEEB7A5CF42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A4DB16-1CA4-4D8D-BECD-AEEB7A5CF42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A4DB16-1CA4-4D8D-BECD-AEEB7A5CF42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74EB6A48-956A-402B-B015-760AFF1A08DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74EB6A48-956A-402B-B015-760AFF1A08DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74EB6A48-956A-402B-B015-760AFF1A08DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74EB6A48-956A-402B-B015-760AFF1A08DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D387DAE-0F43-4A45-8183-410B35D270A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D387DAE-0F43-4A45-8183-410B35D270A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D387DAE-0F43-4A45-8183-410B35D270A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D387DAE-0F43-4A45-8183-410B35D270A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1B79C5E-4FD1-4847-8CDC-2217E08FB799}
+	EndGlobalSection
+EndGlobal
