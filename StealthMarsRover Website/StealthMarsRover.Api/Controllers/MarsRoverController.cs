@@ -45,7 +45,7 @@ namespace StealthMarsRover.Api.Controllers
             }
             catch (Exception e)
             {
-                _logger.Log(LogLevel.Error, $"An error occured while uploading postcodes. {e}");
+                _logger.Log(LogLevel.Error, $"An error occured while downloading Mars Rover Photos. {e}");
                 return null;
             }
         }
